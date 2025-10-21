@@ -13,9 +13,9 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-var username = "dba";
-var password = "s3cr3t!";
-app.ConnectToDatabase(username, password);
+var username = Environment.GetEnvironmentVariable("DB_USERNAME") ?? "admin";
+var password = Environment.GetEnvironmentVariable("DB_PASSWORD") ?? "s3cr3t!";
+// app.ConnectToDatabase(username, password);
 
 app.UseHttpsRedirection();
 

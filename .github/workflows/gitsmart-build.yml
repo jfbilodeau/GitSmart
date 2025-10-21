@@ -1,4 +1,4 @@
-name: .NET Build
+name: GitSmart Build
 
 on:
   push:
