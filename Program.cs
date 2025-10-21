@@ -13,6 +13,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+var username = "dba";
+var password = "s3cr3t!";
+app.ConnectToDatabase(username, password);
+
 app.UseHttpsRedirection();
 
 app.UseRouting();
