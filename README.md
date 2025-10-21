@@ -69,4 +69,4 @@ Notes
 
 ## License
 
-This demo project has no license specified. Add a LICENSE file if you want to publish or share it publicly.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
